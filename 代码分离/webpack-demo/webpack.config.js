@@ -3,15 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    index: {
-      import: './src/index.js',
-      dependOn: 'shared'
-    },
-    print: {
-      import: './src/another-module.js',
-      dependOn: 'shared'
-    },
-    shared: 'lodash'
+    index: './src/index.js'
   },
   output: {
     filename: '[name].bundle.js',
@@ -22,11 +14,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: '管理输出'
     })
-  ],
-  optimization: {
-    runtimeChunk: 'single',
-    splitChunks: {
-      chunks: 'all',
-    }
-  }
+  ]
 };

@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunkwebpack_demo=self.webpackChunkwebpack_demo||[]).push([[740],{405:(e,o,s)=>{var a=s(486),c=s.n(a);console.log(c().join(["Another","module","loaded!"]," "))}},e=>{e.O(0,[712],(()=>(405,e(e.s=405)))),e.O()}]);
+"use strict";(self.webpackChunkwebpack_demo=self.webpackChunkwebpack_demo||[]).push([[740],{569:(e,o,s)=>{s.r(o),s.d(o,{default:()=>t}),console.log("The print.js module has loaded! See the network tab in dev tools...");const t=()=>{console.log('Button Clicked: Here\'s "some text"!')}}}]);
